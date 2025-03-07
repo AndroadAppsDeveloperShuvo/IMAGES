@@ -1,0 +1,549 @@
+<html lang="en"><head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KNOW BANGLADESH - SECRET HISTORY</title>
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Georgia', serif;
+            background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+            color: #343a40;
+            overflow-x: hidden;
+        }
+
+        /* Header */
+        header {
+            background: #6c757d;
+            color: #fff;
+            text-align: center;
+            padding: 20px 20px;
+            border-bottom: 5px solid #495057;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin: 0;
+            font-family: 'Playfair Display', serif;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        header p {
+            font-size: 1rem;
+            margin-top: 10px;
+            font-family: 'Merriweather', serif;
+        }
+
+        /* Library Section */
+        .library {
+            padding: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            gap: 30px;
+        }
+
+        .book-card {
+            background: #ffffff;
+            width: calc(25% - 30px);
+            border-radius: 15px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .book-card:hover {
+            transform: translateY(-12px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
+        }
+
+        .book-card img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .book-info {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .book-info h3 {
+            font-size: 1.4rem;
+            margin: 10px 0;
+            font-family: 'Lora', serif;
+            color: #2c3e50;
+        }
+
+        .book-info p {
+            font-size: 1.1rem;
+            color: #7f8c8d;
+            margin-bottom: 15px;
+        }
+
+        .book-info a {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #17a2b8;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.1rem;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .book-info a:hover {
+            background: #138496;
+        }
+
+        /* Footer */
+        footer {
+            background: #6c757d;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        footer a {
+            color: #ffc107;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: #e0a800;
+        }
+
+        /* Floating Particle Design */
+        .particle {
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            background: #17a2b8;
+            border-radius: 50%;
+            animation: float 10s infinite ease-in-out;
+            opacity: 0.8;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0);
+                opacity: 0.8;
+            }
+            50% {
+                transform: translateY(-150px);
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(0);
+                opacity: 0.8;
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .book-card {
+                width: calc(50% - 30px);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .book-card {
+                width: calc(100% - 30px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>KNOW BANGLADESH - THE SECRET HISTORY</h1>
+        <p>Explore the books and join with us.</p>
+    </header>
+
+    <section class="library" id="library">
+        <!-- Books will be dynamically added here by JavaScript -->
+    <div class="book-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjEwbLXC8hLYxFtnjAOBmv6tkbS8uizMmnIqA6EvKp51ITC2JWTsrFAJc&amp;s=10" alt="যা দেখেছি যা শুনেছি যা করেছি">
+                <div class="book-info">
+                    <h3>যা দেখেছি যা শুনেছি যা করেছি</h3>
+                    <p>author: কর্নেল (অবঃ) শরিফুল হক ডালিম</p>
+                    <a href="https://drive.google.com/uc?export=download&amp;id=1bbzUoEjJNZt1Dly16LDw9PYP8fL_nS9w" target="_blank">Download</a>
+                </div>
+            </div><div class="book-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6lJnvTf2NuD53rogSj96cgc_gLwbtGuaA92qqYr7QthfT3UluBPFpPgY&amp;s=10" alt="মূলধারা '৭১">
+                <div class="book-info">
+                    <h3>মূলধারা '৭১</h3>
+                    <p>author: মঈদুল হাসান</p>
+                    <a href="https://drive.google.com/uc?export=download&amp;id=1bmyWovksF32yCtkrt6sFTr25lMC_VYv2" target="_blank">Download</a>
+                </div>
+            </div><div class="book-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Anthony_Mascarenhas_-_Bangladesh-_A_Legacy_of_Blood.jpg" alt="A Legacy of Blood">
+                <div class="book-info">
+                    <h3>A Legacy of Blood</h3>
+                    <p>author: Anthony Mascarenhas</p>
+                    <a href="https://drive.google.com/uc?export=download&amp;id=1cyPQ970VadS_X_iwYmCgZkZN3aQqKFCT" target="_blank">Download</a>
+                </div>
+            </div><div class="book-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREW7afRhEq6yJ21inkQWKEBvsrJIWGx-bIxgJTfD6oJ_y5STw9ASzjQCU&amp;s=10" alt="আমার ফাসি চাই">
+                <div class="book-info">
+                    <h3>আমার ফাসি চাই</h3>
+                    <p>author: মুক্তিযোদ্ধা মতিয়ুর রহমান রেন্টু</p>
+                    <a href="https://drive.google.com/uc?export=download&amp;id=17xSKtHflknwuMjQIlZ8wOHjipO3dPPUT" target="_blank">Download</a>
+                </div>
+            </div><div class="book-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQptYKISZzyLvEIEHc4pdCJPNZ1pTMT6YB8wA&amp;usqp=CAU" alt="দ্যা রেইপ অব বাংলাদেশ">
+                <div class="book-info">
+                    <h3>দ্যা রেইপ অব বাংলাদেশ</h3>
+                    <p>author: Anthony Mascarenhas</p>
+                    <a href="https://drive.google.com/uc?export=download&amp;id=1beDt9wXLHusASVxrDNGHpEbMl8KJkr3W" target="_blank">Download</a>
+                </div>
+            </div><div class="book-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWMi5QZ14PvPz7WwisTPD-N6lNcJfIGLq13eG9tCWmETkPLzqCo38MtoQ&amp;s=10" alt="১৯৭১-ভেতরে বাইরে">
+                <div class="book-info">
+                    <h3>১৯৭১-ভেতরে বাইরে</h3>
+                    <p>author: এ কে খন্দকার</p>
+                    <a href="https://drive.google.com/uc?export=download&amp;id=1c7W0nJ7fWsg8yT2FTq7BU7ydLDD7vT74" target="_blank">Download</a>
+                </div>
+            </div><div class="book-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgG2S2Ran2NSSCIBfOUCdrBB-TLHVmAhD7D9bdWDO_yrzb2Bko_1ttL0I&amp;s=10" alt="A Stranger in My Own Country">
+                <div class="book-info">
+                    <h3>A Stranger in My Own Country</h3>
+                    <p>author: Major General Khadim Hussain Raja</p>
+                    <a href="https://drive.google.com/uc?export=download&amp;id=1dMJj25TRG60VS-gabjfHkGAqD6qak4Z5" target="_blank">Download</a>
+                </div>
+            </div><div class="book-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmfbeOYasr3C-vGuqsvOM2fLQo_WfPO6svZXU0jBQA5JYZS4cN68nir3U&amp;s=10" alt="Surrender at Dacca - Birth of a Nation">
+                <div class="book-info">
+                    <h3>Surrender at Dacca - Birth of a Nation</h3>
+                    <p>author: JFR. Jacob</p>
+                    <a href="https://drive.google.com/uc?export=download&amp;id=1ccRtK4CmteTX4tFJKAGPsvEQsXMlFyDF" target="_blank">Download</a>
+                </div>
+            </div><div class="book-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTErwsR8PnBzgRIzC690FVsO1jhz2dlKNFItgDi2s-lIcmV4fuX0Z7hCrI&amp;s=10" alt="দ্য বিট্রেয়াল অব ইস্ট পাকিস্তান">
+                <div class="book-info">
+                    <h3>দ্য বিট্রেয়াল অব ইস্ট পাকিস্তান</h3>
+                    <p>author: লে. জে. এ. এ. কে. নিয়াজি</p>
+                    <a href="https://drive.google.com/uc?export=download&amp;id=1ct724Qxp-GeQEUhGUBkJbIwktfBTtHyR" target="_blank">Download</a>
+                </div>
+            </div><div class="book-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ76VkxUjlmgHsq3SpBvwdwl4PxbCgfdsXgGA&amp;usqp=CAU" alt="The Black Coat">
+                <div class="book-info">
+                    <h3>The Black Coat</h3>
+                    <p>author: Neamat Imam</p>
+                    <a href="https://drive.google.com/uc?export=download&amp;id=1dh2C07k1dW8wlfYEDe3Z_1uhsBz7xMAy" target="_blank">Download</a>
+                </div>
+            </div><div class="book-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtx5NUaOhx5Zu5HM8-zZUsLyMYw-GGBulmDDG25H0u05XPWM6H6XUAAUls&amp;s=10" alt="আমার দেখা রাজনীতির ৫০ বছর">
+                <div class="book-info">
+                    <h3>আমার দেখা রাজনীতির ৫০ বছর</h3>
+                    <p>author: আবুল মনসুর আহমদ</p>
+                    <a href="https://drive.google.com/uc?export=download&amp;id=1RxJ7FVu0bhuO-zjHbZO7fWlxz1hR7s_7" target="_blank">Download</a>
+                </div>
+            </div><div class="book-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSud6NnycOUmJz4YIty6bDRQfsC0lud4U_RGVtMDpFY7rLK6N_YJtwc0Y4&amp;s=10" alt="আমি মেজর ডালিম বলছি">
+                <div class="book-info">
+                    <h3>আমি মেজর ডালিম বলছি</h3>
+                    <p>author: রাষ্ট্রদূত লে. কর্নেল (অব.) শরিফুল হক ডালিম</p>
+                    <a href="https://drive.google.com/uc?export=download&amp;id=1dln3v5WCQW3n2BQK2VSjOL5co8Mcd4lj" target="_blank">Download</a>
+                </div>
+            </div><div class="book-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMfyPzScObM0t2wxo2Sq1Gtv1Ty5a5G9eR9hQba_8tO8SxmjBmzBmUDUo&amp;s=10" alt="এক জেনারেলের নীরব সাক্ষ্য">
+                <div class="book-info">
+                    <h3>এক জেনারেলের নীরব সাক্ষ্য</h3>
+                    <p>author: মেজর জে. মইনুল হোসেন (বীরবিক্রম)</p>
+                    <a href="https://drive.google.com/uc?export=download&amp;id=1cvgw8fawl3aZTJDwuF4X1jLxhYSelGou" target="_blank">Download</a>
+                </div>
+            </div><div class="book-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAWfQpAW6M5M0__KNSTB1bmjGX73NA5wrpUIkCNleqxRfUo5hivy06Ef0H&amp;s=10" alt="গঙ্গাঋদ্ধি থেকে বাংলাদেশ">
+                <div class="book-info">
+                    <h3>গঙ্গাঋদ্ধি থেকে বাংলাদেশ</h3>
+                    <p>author: মুহাম্মদ হাবিবুর রহমান</p>
+                    <a href="https://drive.google.com/uc?export=download&amp;id=1c9AP-g_uzSevVDCLoLI0w4tUTkuplNHx" target="_blank">Download</a>
+                </div>
+            </div><div class="book-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEKNzU8krj6UxidmIiD9mkUz22EvHK_d07qFVk3pfpGFErZ4zyZQAJzPYj&amp;s=10" alt="জাসদের উথান পতনঃ অস্থির সময়ের রাজনীতি">
+                <div class="book-info">
+                    <h3>জাসদের উথান পতনঃ অস্থির সময়ের রাজনীতি</h3>
+                    <p>author: মহিউদ্দিন আহমদ</p>
+                    <a href="https://drive.google.com/uc?export=download&amp;id=1bgqRpy0RTwDXm2FbFGdzlsIubO496Zba" target="_blank">Download</a>
+                </div>
+            </div><div class="book-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_V9TjHcoxH6_4MeH8RX46qLbGuHwCIm2X8f2ECeSgN7KJgsTPaa9BKLk&amp;s=10" alt="তাজউদ্দিন আহমেদ নেতা ও পিতা">
+                <div class="book-info">
+                    <h3>তাজউদ্দিন আহমেদ নেতা ও পিতা</h3>
+                    <p>author: শারমিন আহমদ</p>
+                    <a href="https://drive.google.com/uc?export=download&amp;id=1bhNhlEgxCcvLeJRIan3LLXbWGRvcyXDu" target="_blank">Download</a>
+                </div>
+            </div><div class="book-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0xdDGAmj1eXg0QJeq4pSHqBeLEUZe4I_zxD23Uu2vzT7bUvRR41U2GEk&amp;s=10" alt="দেয়াল">
+                <div class="book-info">
+                    <h3>দেয়াল</h3>
+                    <p>author: হুমায়ুন আহমেদ</p>
+                    <a href="https://drive.google.com/uc?export=download&amp;id=1dfmumfCjbgYLWt9z0jkDTLON_nvb5o5u" target="_blank">Download</a>
+                </div>
+            </div><div class="book-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBk-BQNn32kZxDujLBYoqqjxQ609dpQrkBunY5u1EU9fKstoAD8OMQe1LH&amp;s=10" alt="বলেছি বলছি বলবো">
+                <div class="book-info">
+                    <h3>বলেছি বলছি বলবো</h3>
+                    <p>author: শাহ মোয়াজ্জেম হোসেন</p>
+                    <a href="https://drive.google.com/uc?export=download&amp;id=1ckNXJy_0eSrgFomY3sW6F2OUNRBd-wZi" target="_blank">Download</a>
+                </div>
+            </div><div class="book-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCeORwuyF-csqDoo85E2zBfetZJn6wYCBgYQ&amp;s" alt="মার্কিন দলিলে মুজিব হত্যাকান্ড">
+                <div class="book-info">
+                    <h3>মার্কিন দলিলে মুজিব হত্যাকান্ড</h3>
+                    <p>author: মিজানুর রহমান খান</p>
+                    <a href="https://drive.google.com/uc?export=download&amp;id=1cZ36_biNWwQwtlB1f3AzoAToAFZ00wlr" target="_blank">Download</a>
+                </div>
+            </div><div class="book-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxJLJXjMcyyG4mbEiG9qBEzRyNuYqP9DBCLODWWcC2IUfdN-jHWcTL&amp;s=10" alt="ক্রাচের কর্নেল">
+                <div class="book-info">
+                    <h3>ক্রাচের কর্নেল</h3>
+                    <p>author: শাহাদুজ্জামান</p>
+                    <a href="https://drive.google.com/uc?export=download&amp;id=1nM6XzFUbQa9paQ5Fs18HNMBn7k2D6ldr" target="_blank">Download</a>
+                </div>
+            </div><div class="book-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn0jp78wHGY_ScTL4TJ488Pb3VJuum2fUosA2RxrVQIqFy31_aUBlq6-jv&amp;s=10" alt="জোছনা ও জননীর গল্প">
+                <div class="book-info">
+                    <h3>জোছনা ও জননীর গল্প</h3>
+                    <p>author: হুমায়ূন আহমেদ</p>
+                    <a href="https://drive.google.com/uc?export=download&amp;id=1M4GVzNIzTHU3KyLFW-Yd3pXDNsRUEjlG" target="_blank">Download</a>
+                </div>
+            </div><div class="book-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSc-cKZa4pZyq9wCd_yRG3eJGaKoloukX5bRjU5o3lEhgEr3eskfT86_P0&amp;s=10" alt="রাইফেল, রোটি, আওরাত">
+                <div class="book-info">
+                    <h3>রাইফেল, রোটি, আওরাত</h3>
+                    <p>author: আনোয়ার পাশা</p>
+                    <a href="https://drive.google.com/uc?export=download&amp;id=1tKJ0PTktvl08j9LEjKqtdm_PgsNTakBm" target="_blank">Download</a>
+                </div>
+            </div><div class="book-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFkySU_JRONSqc2Zcg9QBXEb4afDo3jOnrFxsX2nqEhdik_1CpkGxvfqwI&amp;s=10" alt="লাল সন্ত্রাস">
+                <div class="book-info">
+                    <h3>লাল সন্ত্রাস</h3>
+                    <p>author: মহিউদ্দিন আহমদ</p>
+                    <a href="https://drive.google.com/uc?export=download&amp;id=1czuobVyrOj-BO3RsBDoxT2c6iqyql0dY" target="_blank">Download</a>
+                </div>
+            </div><div class="book-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI-l5lFg-qvwrGXDpKjXgqEYJ95js_Tp4_c8fqK6aNSdV82jow5EsJ7wM&amp;s=10" alt="স্বাধীনতা উত্তর বাংলাদেশ">
+                <div class="book-info">
+                    <h3>স্বাধীনতা উত্তর বাংলাদেশ</h3>
+                    <p>author: পিনাকি ভট্টাচার্য</p>
+                    <a href="https://drive.google.com/uc?export=download&amp;id=1dj48u1-aLoi8R6aopGmRhEHW9ls3MnLx" target="_blank">Download</a>
+                </div>
+            </div><div class="book-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxiRqEgAbOXUDfN4qb_a3qFPZEYcagRNWv_WaxY8B19vLe-D4g-4JVliU&amp;s=10" alt="আত্মসমর্পণের সাক্ষী (উইটনেস টু সারেন্ডার)">
+                <div class="book-info">
+                    <h3>আত্মসমর্পণের সাক্ষী (উইটনেস টু সারেন্ডার)</h3>
+                    <p>author: সিদ্দিক সালিক</p>
+                    <a href="https://drive.google.com/uc?export=download&amp;id=1yn9hh2MC_CBfgL_41T-2fGKmMrveqCKY" target="_blank">Download</a>
+                </div>
+            </div><div class="book-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3R_-88Ls5gPKzy6MJq9SgC9e2V2eJ3JdxuQ&amp;usqp=CAU" alt="তিনটি সেনা অভ্যুত্থান ও কিছু না বলা কথা">
+                <div class="book-info">
+                    <h3>তিনটি সেনা অভ্যুত্থান ও কিছু না বলা কথা</h3>
+                    <p>author: লে. কর্ণেল এম. এ. হামিদ</p>
+                    <a href="https://drive.google.com/uc?export=download&amp;id=1cQRA4hkhRHH8wHExyF6U9nCseihb9XQv" target="_blank">Download</a>
+                </div>
+            </div></section>
+
+    <footer>
+        <p>© 2025 Interactive Library. All Rights Reserved. Visit <a href="#">our website</a>.</p>
+    </footer>
+
+    <script>
+        // Array of books
+        const books = [
+           
+    {
+        title: "যা দেখেছি যা শুনেছি যা করেছি",
+        author: "কর্নেল (অবঃ) শরিফুল হক ডালিম",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjEwbLXC8hLYxFtnjAOBmv6tkbS8uizMmnIqA6EvKp51ITC2JWTsrFAJc&s=10",
+        link: "https://drive.google.com/uc?export=download&id=1bbzUoEjJNZt1Dly16LDw9PYP8fL_nS9w"
+    },
+    {
+        title: "মূলধারা '৭১",
+        author: "মঈদুল হাসান",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6lJnvTf2NuD53rogSj96cgc_gLwbtGuaA92qqYr7QthfT3UluBPFpPgY&s=10",
+        link: "https://drive.google.com/uc?export=download&id=1bmyWovksF32yCtkrt6sFTr25lMC_VYv2"
+    },
+    {
+        title: "A Legacy of Blood",
+        author: "Anthony Mascarenhas",
+        image: "https://upload.wikimedia.org/wikipedia/commons/d/d4/Anthony_Mascarenhas_-_Bangladesh-_A_Legacy_of_Blood.jpg",
+        link: "https://drive.google.com/uc?export=download&id=1cyPQ970VadS_X_iwYmCgZkZN3aQqKFCT"
+    },
+    {
+        title: "আমার ফাসি চাই",
+        author: "মুক্তিযোদ্ধা মতিয়ুর রহমান রেন্টু",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREW7afRhEq6yJ21inkQWKEBvsrJIWGx-bIxgJTfD6oJ_y5STw9ASzjQCU&s=10",
+        link: "https://drive.google.com/uc?export=download&id=17xSKtHflknwuMjQIlZ8wOHjipO3dPPUT"
+    },
+    {
+        title: "দ্যা রেইপ অব বাংলাদেশ",
+        author: "Anthony Mascarenhas",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQptYKISZzyLvEIEHc4pdCJPNZ1pTMT6YB8wA&usqp=CAU",
+        link: "https://drive.google.com/uc?export=download&id=1beDt9wXLHusASVxrDNGHpEbMl8KJkr3W"
+    },
+    {
+        title: "১৯৭১-ভেতরে বাইরে",
+        author: "এ কে খন্দকার",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWMi5QZ14PvPz7WwisTPD-N6lNcJfIGLq13eG9tCWmETkPLzqCo38MtoQ&s=10",
+        link: "https://drive.google.com/uc?export=download&id=1c7W0nJ7fWsg8yT2FTq7BU7ydLDD7vT74"
+    },
+    {
+        title: "A Stranger in My Own Country",
+        author: "Major General Khadim Hussain Raja",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgG2S2Ran2NSSCIBfOUCdrBB-TLHVmAhD7D9bdWDO_yrzb2Bko_1ttL0I&s=10",
+        link: "https://drive.google.com/uc?export=download&id=1dMJj25TRG60VS-gabjfHkGAqD6qak4Z5"
+    },
+    {
+        title: "Surrender at Dacca - Birth of a Nation",
+        author: "JFR. Jacob",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmfbeOYasr3C-vGuqsvOM2fLQo_WfPO6svZXU0jBQA5JYZS4cN68nir3U&s=10",
+        link: "https://drive.google.com/uc?export=download&id=1ccRtK4CmteTX4tFJKAGPsvEQsXMlFyDF"
+    },
+    {
+        title: "দ্য বিট্রেয়াল অব ইস্ট পাকিস্তান",
+        author: "লে. জে. এ. এ. কে. নিয়াজি",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTErwsR8PnBzgRIzC690FVsO1jhz2dlKNFItgDi2s-lIcmV4fuX0Z7hCrI&s=10",
+        link: "https://drive.google.com/uc?export=download&id=1ct724Qxp-GeQEUhGUBkJbIwktfBTtHyR"
+    },
+    {
+        title: "The Black Coat",
+        author: "Neamat Imam",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ76VkxUjlmgHsq3SpBvwdwl4PxbCgfdsXgGA&usqp=CAU",
+        link: "https://drive.google.com/uc?export=download&id=1dh2C07k1dW8wlfYEDe3Z_1uhsBz7xMAy"
+    },
+    {
+        title: "আমার দেখা রাজনীতির ৫০ বছর",
+        author: "আবুল মনসুর আহমদ",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtx5NUaOhx5Zu5HM8-zZUsLyMYw-GGBulmDDG25H0u05XPWM6H6XUAAUls&s=10",
+        link: "https://drive.google.com/uc?export=download&id=1RxJ7FVu0bhuO-zjHbZO7fWlxz1hR7s_7"
+    },
+    {
+        title: "আমি মেজর ডালিম বলছি",
+        author: "রাষ্ট্রদূত লে. কর্নেল (অব.) শরিফুল হক ডালিম",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSud6NnycOUmJz4YIty6bDRQfsC0lud4U_RGVtMDpFY7rLK6N_YJtwc0Y4&s=10",
+        link: "https://drive.google.com/uc?export=download&id=1dln3v5WCQW3n2BQK2VSjOL5co8Mcd4lj"
+    },
+    {
+        title: "এক জেনারেলের নীরব সাক্ষ্য",
+        author: "মেজর জে. মইনুল হোসেন (বীরবিক্রম)",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMfyPzScObM0t2wxo2Sq1Gtv1Ty5a5G9eR9hQba_8tO8SxmjBmzBmUDUo&s=10",
+        link: "https://drive.google.com/uc?export=download&id=1cvgw8fawl3aZTJDwuF4X1jLxhYSelGou"
+    },
+    {
+        title: "গঙ্গাঋদ্ধি থেকে বাংলাদেশ",
+        author: "মুহাম্মদ হাবিবুর রহমান",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAWfQpAW6M5M0__KNSTB1bmjGX73NA5wrpUIkCNleqxRfUo5hivy06Ef0H&s=10",
+        link: "https://drive.google.com/uc?export=download&id=1c9AP-g_uzSevVDCLoLI0w4tUTkuplNHx"
+    },
+    {
+        title: "জাসদের উথান পতনঃ অস্থির সময়ের রাজনীতি",
+        author: "মহিউদ্দিন আহমদ",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEKNzU8krj6UxidmIiD9mkUz22EvHK_d07qFVk3pfpGFErZ4zyZQAJzPYj&s=10",
+        link: "https://drive.google.com/uc?export=download&id=1bgqRpy0RTwDXm2FbFGdzlsIubO496Zba"
+    },
+    {
+        title: "তাজউদ্দিন আহমেদ নেতা ও পিতা",
+        author: "শারমিন আহমদ",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_V9TjHcoxH6_4MeH8RX46qLbGuHwCIm2X8f2ECeSgN7KJgsTPaa9BKLk&s=10",
+        link: "https://drive.google.com/uc?export=download&id=1bhNhlEgxCcvLeJRIan3LLXbWGRvcyXDu"
+    },
+    {
+        title: "দেয়াল",
+        author: "হুমায়ুন আহমেদ",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0xdDGAmj1eXg0QJeq4pSHqBeLEUZe4I_zxD23Uu2vzT7bUvRR41U2GEk&s=10",
+        link: "https://drive.google.com/uc?export=download&id=1dfmumfCjbgYLWt9z0jkDTLON_nvb5o5u"
+    },
+    {
+        title: "বলেছি বলছি বলবো",
+        author: "শাহ মোয়াজ্জেম হোসেন",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBk-BQNn32kZxDujLBYoqqjxQ609dpQrkBunY5u1EU9fKstoAD8OMQe1LH&s=10",
+        link: "https://drive.google.com/uc?export=download&id=1ckNXJy_0eSrgFomY3sW6F2OUNRBd-wZi"
+    },
+    {
+        title: "মার্কিন দলিলে মুজিব হত্যাকান্ড",
+        author: "মিজানুর রহমান খান",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCeORwuyF-csqDoo85E2zBfetZJn6wYCBgYQ&s",
+        link: "https://drive.google.com/uc?export=download&id=1cZ36_biNWwQwtlB1f3AzoAToAFZ00wlr"
+    },
+    {
+        title: "ক্রাচের কর্নেল",
+        author: "শাহাদুজ্জামান",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxJLJXjMcyyG4mbEiG9qBEzRyNuYqP9DBCLODWWcC2IUfdN-jHWcTL&s=10",
+        link: "https://drive.google.com/uc?export=download&id=1nM6XzFUbQa9paQ5Fs18HNMBn7k2D6ldr"
+    },
+    {
+        title: "জোছনা ও জননীর গল্প",
+        author: "হুমায়ূন আহমেদ",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn0jp78wHGY_ScTL4TJ488Pb3VJuum2fUosA2RxrVQIqFy31_aUBlq6-jv&s=10",
+        link: "https://drive.google.com/uc?export=download&id=1M4GVzNIzTHU3KyLFW-Yd3pXDNsRUEjlG"
+    },
+    {
+        title: "রাইফেল, রোটি, আওরাত",
+        author: "আনোয়ার পাশা",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSc-cKZa4pZyq9wCd_yRG3eJGaKoloukX5bRjU5o3lEhgEr3eskfT86_P0&s=10",
+        link: "https://drive.google.com/uc?export=download&id=1tKJ0PTktvl08j9LEjKqtdm_PgsNTakBm"
+    },
+    {
+        title: "লাল সন্ত্রাস",
+        author: "মহিউদ্দিন আহমদ",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFkySU_JRONSqc2Zcg9QBXEb4afDo3jOnrFxsX2nqEhdik_1CpkGxvfqwI&s=10",
+        link: "https://drive.google.com/uc?export=download&id=1czuobVyrOj-BO3RsBDoxT2c6iqyql0dY"
+    },
+    {
+        title: "স্বাধীনতা উত্তর বাংলাদেশ",
+        author: "পিনাকি ভট্টাচার্য",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI-l5lFg-qvwrGXDpKjXgqEYJ95js_Tp4_c8fqK6aNSdV82jow5EsJ7wM&s=10",
+        link: "https://drive.google.com/uc?export=download&id=1dj48u1-aLoi8R6aopGmRhEHW9ls3MnLx"
+    },
+    {
+        title: "আত্মসমর্পণের সাক্ষী (উইটনেস টু সারেন্ডার)",
+        author: "সিদ্দিক সালিক",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxiRqEgAbOXUDfN4qb_a3qFPZEYcagRNWv_WaxY8B19vLe-D4g-4JVliU&s=10",
+        link: "https://drive.google.com/uc?export=download&id=1yn9hh2MC_CBfgL_41T-2fGKmMrveqCKY"
+    },
+    {
+        title: "তিনটি সেনা অভ্যুত্থান ও কিছু না বলা কথা",
+        author: "লে. কর্ণেল এম. এ. হামিদ",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3R_-88Ls5gPKzy6MJq9SgC9e2V2eJ3JdxuQ&usqp=CAU",
+        link: "https://drive.google.com/uc?export=download&id=1cQRA4hkhRHH8wHExyF6U9nCseihb9XQv"
+    }
+        ];
+
+        // Populate the library section
+        const librarySection = document.getElementById('library');
+        books.forEach(book => {
+            const bookCard = document.createElement('div');
+            bookCard.className = 'book-card';
+
+            bookCard.innerHTML = `
+                <img src="${book.image}" alt="${book.title}">
+                <div class="book-info">
+                    <h3>${book.title}</h3>
+                    <p>author: ${book.author}</p>
+                    <a href="${book.link}" target="_blank">Download</a>
+                </div>
+            `;
+
+            librarySection.appendChild(bookCard);
+        });
+
+        // Create floating particles
+        for (let i = 0; i < 50; i++) {
+            const particle = document.createElement('div');
+            particle.className = 'particle';
+            particle.style.left = `${Math.random() * 100}vw`;
+            particle.style.animationDuration = `${Math.random() * 5 + 5}s`;
+            particle.style.animationDelay = `${Math.random() * 5}s`;
+            document.body.appendChild(particle);
+        }
+    </script><div class="particle" style="left: 37.5608vw; animation-duration: 9.06794s; animation-delay: 4.97138s;"></div><div class="particle" style="left: 86.1427vw; animation-duration: 7.00533s; animation-delay: 4.36349s;"></div><div class="particle" style="left: 85.7311vw; animation-duration: 7.30704s; animation-delay: 1.22454s;"></div><div class="particle" style="left: 78.0792vw; animation-duration: 8.37653s; animation-delay: 4.44645s;"></div><div class="particle" style="left: 68.9952vw; animation-duration: 7.83385s; animation-delay: 2.9003s;"></div><div class="particle" style="left: 86.0572vw; animation-duration: 7.05112s; animation-delay: 1.92044s;"></div><div class="particle" style="left: 69.5598vw; animation-duration: 6.13994s; animation-delay: 3.64107s;"></div><div class="particle" style="left: 49.5562vw; animation-duration: 9.03289s; animation-delay: 3.11094s;"></div><div class="particle" style="left: 83.5169vw; animation-duration: 6.04499s; animation-delay: 0.386981s;"></div><div class="particle" style="left: 14.7907vw; animation-duration: 9.87576s; animation-delay: 1.39706s;"></div><div class="particle" style="left: 73.1548vw; animation-duration: 8.38219s; animation-delay: 3.9429s;"></div><div class="particle" style="left: 95.659vw; animation-duration: 5.44566s; animation-delay: 4.16761s;"></div><div class="particle" style="left: 96.8376vw; animation-duration: 6.73233s; animation-delay: 3.92145s;"></div><div class="particle" style="left: 29.6293vw; animation-duration: 6.3217s; animation-delay: 4.15197s;"></div><div class="particle" style="left: 65.4635vw; animation-duration: 6.31962s; animation-delay: 1.96319s;"></div><div class="particle" style="left: 84.8925vw; animation-duration: 7.78931s; animation-delay: 4.34056s;"></div><div class="particle" style="left: 22.6382vw; animation-duration: 9.12665s; animation-delay: 2.57342s;"></div><div class="particle" style="left: 35.2566vw; animation-duration: 9.84267s; animation-delay: 4.53206s;"></div><div class="particle" style="left: 17.2144vw; animation-duration: 8.70485s; animation-delay: 0.599115s;"></div><div class="particle" style="left: 15.0796vw; animation-duration: 7.24386s; animation-delay: 3.09463s;"></div><div class="particle" style="left: 78.7814vw; animation-duration: 6.45109s; animation-delay: 1.33019s;"></div><div class="particle" style="left: 20.3565vw; animation-duration: 7.15316s; animation-delay: 4.80049s;"></div><div class="particle" style="left: 39.7738vw; animation-duration: 6.4614s; animation-delay: 2.08579s;"></div><div class="particle" style="left: 53.2784vw; animation-duration: 6.78356s; animation-delay: 1.5098s;"></div><div class="particle" style="left: 79.3321vw; animation-duration: 8.43136s; animation-delay: 3.58684s;"></div><div class="particle" style="left: 86.4541vw; animation-duration: 6.6393s; animation-delay: 3.02966s;"></div><div class="particle" style="left: 45.1165vw; animation-duration: 8.60698s; animation-delay: 0.114128s;"></div><div class="particle" style="left: 10.7493vw; animation-duration: 7.56593s; animation-delay: 3.62353s;"></div><div class="particle" style="left: 38.6834vw; animation-duration: 7.4878s; animation-delay: 3.66296s;"></div><div class="particle" style="left: 3.43736vw; animation-duration: 6.07041s; animation-delay: 0.838178s;"></div><div class="particle" style="left: 54.1507vw; animation-duration: 7.04593s; animation-delay: 0.452438s;"></div><div class="particle" style="left: 74.8261vw; animation-duration: 9.10021s; animation-delay: 4.6526s;"></div><div class="particle" style="left: 80.4834vw; animation-duration: 7.5325s; animation-delay: 2.18327s;"></div><div class="particle" style="left: 75.5294vw; animation-duration: 9.83149s; animation-delay: 2.37132s;"></div><div class="particle" style="left: 23.0404vw; animation-duration: 6.79591s; animation-delay: 2.49288s;"></div><div class="particle" style="left: 94.0158vw; animation-duration: 5.24245s; animation-delay: 1.4433s;"></div><div class="particle" style="left: 82.295vw; animation-duration: 8.12228s; animation-delay: 3.39398s;"></div><div class="particle" style="left: 69.0597vw; animation-duration: 6.14809s; animation-delay: 0.362561s;"></div><div class="particle" style="left: 60.7348vw; animation-duration: 6.18246s; animation-delay: 2.75213s;"></div><div class="particle" style="left: 72.0466vw; animation-duration: 9.43158s; animation-delay: 2.14461s;"></div><div class="particle" style="left: 11.3642vw; animation-duration: 5.68489s; animation-delay: 2.05834s;"></div><div class="particle" style="left: 52.7389vw; animation-duration: 7.10844s; animation-delay: 2.47113s;"></div><div class="particle" style="left: 69.396vw; animation-duration: 5.40475s; animation-delay: 3.65304s;"></div><div class="particle" style="left: 85.0266vw; animation-duration: 6.37543s; animation-delay: 2.30905s;"></div><div class="particle" style="left: 56.1575vw; animation-duration: 9.86356s; animation-delay: 1.47292s;"></div><div class="particle" style="left: 63.9662vw; animation-duration: 7.51331s; animation-delay: 4.36008s;"></div><div class="particle" style="left: 44.3746vw; animation-duration: 7.9746s; animation-delay: 2.29843s;"></div><div class="particle" style="left: 77.9051vw; animation-duration: 6.88446s; animation-delay: 0.551575s;"></div><div class="particle" style="left: 8.90428vw; animation-duration: 7.1242s; animation-delay: 1.14898s;"></div><div class="particle" style="left: 27.0232vw; animation-duration: 9.36502s; animation-delay: 2.4272s;"></div>
+
+
+
+</body></html>
